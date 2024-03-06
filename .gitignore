@@ -1,1 +1,4 @@
-venv/
+.vscode/
+venv
+app/__pycache__/
+instance/
