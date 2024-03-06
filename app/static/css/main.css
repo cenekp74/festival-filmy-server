@@ -1,0 +1,228 @@
+:root {
+    --text-color: #e7f9e9;
+    --bg-color: #161816;
+    --secondary-color: #1b2527;
+    --link-color: #a682ee;
+    --hover-link-color: #bca4ee;
+    --button-color: #34145a;
+    --disabled-button-color: #222224;
+    --disabled-text-color: #3c4d42;
+    --border-radius: 5px;
+    --form-color: #1e1e22;
+    --form-field-color: #37363e;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+a {
+    color: var(--link-color)
+}
+a:visited {
+    color: var(--link-color)
+}
+
+::-webkit-scrollbar {
+    background-color: var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--secondary-color);}
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--button-color);
+    color: var(--link-color);
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+a.disabled, .button-link.disabled a {
+    pointer-events: none;
+    cursor: default;
+    color: var(--disabled-text-color);
+}
+
+.button-link.disabled {
+    background-color: var(--disabled-button-color);
+}
+
+.disabled {
+    color: var(--disabled-text-color);
+}
+
+a:hover {
+    color: var(--hover-link-color);
+}
+
+[type="button"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+    cursor: pointer;
+}
+
+.alert {
+    background-color: var(--secondary-color);
+    border-radius: var(--border-radius);
+    line-height: 2rem;
+    min-width: 50%;
+    text-align: center;
+    margin-top: .3rem;
+    font-style: italic;
+    text-indent: 3px;
+}
+
+.alert i {
+    float: right;
+    line-height: 2rem;
+    margin-right: 5px;
+    cursor: pointer;
+    padding-right: 2px;
+    padding-left: 3px;
+}
+
+.btn {
+    background-color: transparent;
+    color: var(--text-color);
+    border: 1px solid transparent;
+    border-color: var(--text-color);
+    border-radius: .25rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+/* #region forms */
+.container-form {
+    width: 70%;
+    min-width: 320px;
+    max-width: 500px;
+    margin-top: 3rem;
+    background-color: var(--form-color);
+    padding: 20px;
+    border-radius: var(--border-radius);
+}
+
+fieldset {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+legend {
+    border-bottom: 1px solid var(--text-color);
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 1.2rem;
+    font-size: calc(1.275rem + .3vw);
+    line-height: inherit;
+}
+
+label {
+    font-size: 110%;
+}
+
+textarea {
+    width: 100%;
+    resize: vertical;
+    background-color: var(--form-field-color);
+    border: 1px var(--bg-color) solid;
+    color: var(--text-color);
+    border-radius: var(--border-radius);
+}
+
+select {
+    background-color: var(--form-field-color);
+    color: var(--text-color);
+    border-radius: var(--border-radius);
+    border: 1px solid var(--disabled-text-color);
+}
+
+.form-group:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+input.form-input {
+    width: 100%;
+    background-color: var(--form-field-color);
+    color: var(--text-color);
+    border: none;
+    height: 2rem;
+    border-radius: var(--border-radius);
+    text-indent: 5px;
+    font-size: 100%;
+    margin-top: 0.2rem;
+}
+
+input.invalid {
+    border-color: #dc3545;
+    padding-right: calc(1.5em + .75rem);
+}
+
+.form-check-input {
+    margin-left: 0;
+}
+
+.form-check label {
+    font-size: 90%;
+}
+
+.form-submit {
+    margin-top: 2rem;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.invalid-feedback {
+    width: 100%;
+    margin-top: .25rem;
+    font-size: .875em;
+    color: #dc3545;
+}
+/* #endregion forms */
+
+/* #region footer */
+footer {
+    color: var(--text-color);
+    text-align: center;
+    padding: 5px;
+    padding-top: 1px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-color);
+    max-height: 56px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.system-links {
+    font-size: 80%;
+}
+
+/* #endregion footer */
