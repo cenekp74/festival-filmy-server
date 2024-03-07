@@ -49,6 +49,10 @@ def cilent_msg(client):
     write_clients()
     return '200'
 
+@app.route('/current_day')
+def current_day():
+    return str(app.config['CONFIG']['current_day'])
+
 #region login
 @app.route('/login', methods=['GET', 'POST']) 
 def login():
