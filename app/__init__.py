@@ -10,9 +10,11 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'
 
 app.config['DB_SERVER'] = 'http://127.0.0.1:8963'
 app.config['CONFIG_FILE_PATH'] = 'app/config.json'
+app.config['CLIENTS_FILE_PATH'] = 'app/clients.json'
 
-from .utils import load_config
+from .utils import load_config, load_clients
 load_config()
+load_clients()
 
 bcrypt = Bcrypt(app)
 login_manager = LoginManager(app)

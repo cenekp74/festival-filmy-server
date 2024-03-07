@@ -1,10 +1,11 @@
 from app import app, db, bcrypt
-from flask import flash, render_template, redirect, url_for, jsonify
+from flask import flash, render_template, redirect, url_for, jsonify, abort, request
 from flask_login import login_user, logout_user, current_user
 from app.db_classes import User
 from app.forms import LoginForm
 import requests
-from app.utils import write_config, load_config
+from app.utils import write_config, load_config, write_clients, load_clients
+from datetime import datetime
 
 @app.route('/')
 def index():
@@ -28,11 +29,25 @@ def fetch():
             program[room][day] = requests.get(app.config['DB_SERVER'] + f'/api/query/film?room={room}&day={day}').json()
     app.config['CONFIG']['PROGRAM'] = program
     write_config()
-    return 200
+    return '200'
 
 @app.route('/get_program/<room>')
 def get_program(room):
     return jsonify(app.config['CONFIG']['PROGRAM'][room])
+
+@app.post('/client/<client>/msg')
+def cilent_msg(client):
+    if client not in app.config['CONFIG']['ROOMS']: abort(400)
+    if client not in app.clients:
+        app.clients[client] = {}
+        app.clients[client]["log"] = {}
+    msg = request.get_data(as_text=True)
+    now = datetime.now().strftime("%Y.%m.%d-%H:%M")
+    app.clients[client]["log"][now] = msg
+    app.clients[client]["last_update"] = now
+    app.clients[client]["status"] = msg
+    write_clients()
+    return '200'
 
 #region login
 @app.route('/login', methods=['GET', 'POST']) 
