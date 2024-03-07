@@ -3,6 +3,8 @@ from flask import flash, render_template, redirect, url_for
 from flask_login import login_user, logout_user, current_user
 from app.db_classes import User
 from app.forms import LoginForm
+import requests
+from app.utils import write_config, load_config
 
 @app.route('/')
 def index():
@@ -14,8 +16,15 @@ def index():
 def dashboard():
     return render_template('dashboard.html')
 
+@app.route('/fetch')
+def fetch():
+    rooms = requests.get(app.config['DB_SERVER'] + '/api/get_rooms_for_films').json()
+    app.config['CONFIG']['ROOMS'] = rooms
+    write_config()
+    response = requests.get(app.config['DB_SERVER'] + '/api/query/film')
+
 #region login
-@app.route('/login', methods=['GET', 'POST'])
+@app.route('/login', methods=['GET', 'POST']) 
 def login():
     form = LoginForm()
     if form.validate_on_submit():
