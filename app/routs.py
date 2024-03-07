@@ -1,5 +1,5 @@
 from app import app, db, bcrypt
-from flask import flash, render_template, redirect, url_for
+from flask import flash, render_template, redirect, url_for, jsonify
 from flask_login import login_user, logout_user, current_user
 from app.db_classes import User
 from app.forms import LoginForm
@@ -28,7 +28,11 @@ def fetch():
             program[room][day] = requests.get(app.config['DB_SERVER'] + f'/api/query/film?room={room}&day={day}').json()
     app.config['CONFIG']['PROGRAM'] = program
     write_config()
-    return program
+    return 200
+
+@app.route('/get_program/<room>')
+def get_program(room):
+    return jsonify(app.config['CONFIG']['PROGRAM'][room])
 
 #region login
 @app.route('/login', methods=['GET', 'POST']) 
