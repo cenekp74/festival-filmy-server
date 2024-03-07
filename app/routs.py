@@ -21,7 +21,14 @@ def fetch():
     rooms = requests.get(app.config['DB_SERVER'] + '/api/get_rooms_for_films').json()
     app.config['CONFIG']['ROOMS'] = rooms
     write_config()
-    response = requests.get(app.config['DB_SERVER'] + '/api/query/film')
+    program = {}
+    for room in app.config['CONFIG']['ROOMS']:
+        program[room] = {}
+        for day in ['1', '2', '3']:
+            program[room][day] = requests.get(app.config['DB_SERVER'] + f'/api/query/film?room={room}&day={day}').json()
+    app.config['CONFIG']['PROGRAM'] = program
+    write_config()
+    return program
 
 #region login
 @app.route('/login', methods=['GET', 'POST']) 

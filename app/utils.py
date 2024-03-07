@@ -7,4 +7,4 @@ def load_config():
 
 def write_config():
     with open(app.config['CONFIG_FILE_PATH'], 'w') as f:
-        json.dump(app.config['CONFIG'], f)
+        json.dump(app.config['CONFIG'], f, indent=4)
