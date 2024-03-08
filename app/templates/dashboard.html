@@ -18,6 +18,11 @@
         <div class="client-last-update">Last update: {{ client.last_update }}</div>
         <div class="client-details">
             <div>status: <b>{{ client.status }}</b></div>
+            <div class="log">
+                {% for dt, msg in client.log.items() %}
+                {{ dt }}: {{ msg }} <br>
+                {% endfor %}
+            </div>
         </div>
     </div>
     {% endfor %}

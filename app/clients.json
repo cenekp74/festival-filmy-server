@@ -15,10 +15,12 @@
     },
     "III": {
         "log": {
-            "2024.03.08-15:53": "test3"
+            "2024.03.08-15:53": "test3",
+            "2024.03.08-16:43": "Downloading content",
+            "2024.03.08-16:52": "Playing film"
         },
-        "last_update": "2024.03.08-15:53",
-        "status": "test3"
+        "last_update": "2024.03.08-16:52",
+        "status": "Playing film"
     },
     "IV": {
         "log": {

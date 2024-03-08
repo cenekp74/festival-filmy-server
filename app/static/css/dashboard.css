@@ -1,6 +1,7 @@
 :root {
     --border-color: #3c4d42;
     --client-item-color: #2b2a33;
+    --log-color: #494857;
 }
 
 .content {
@@ -60,4 +61,14 @@
     border-right: 1px solid var(--border-color);
     width: 2.5rem;
     text-align: center;
+}
+
+.client-item .log {
+    margin-top: .3rem;
+    background-color: var(--log-color);
+    border-radius: var(--border-radius);
+    border: 1px solid var(--border-color);
+    padding: .5rem;
+    height: 6rem;
+    line-height: 1rem;
 }
