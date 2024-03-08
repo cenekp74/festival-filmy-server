@@ -20,7 +20,7 @@
             <div>status: <b>{{ client.status }}</b></div>
             <div class="log">
                 {% for dt, msg in client.log %}
-                {{ dt }}: {{ msg }} <br>
+                {{ dt[5:] }}: {{ msg }} <br>
                 {% endfor %}
             </div>
         </div>
