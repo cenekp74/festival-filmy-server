@@ -43,13 +43,6 @@ a:visited {
     color: var(--link-color)
 }
 
-::-webkit-scrollbar {
-    background-color: var(--bg-color);
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: var(--secondary-color);}
-
 a.disabled, .button-link.disabled a {
     pointer-events: none;
     cursor: default;
