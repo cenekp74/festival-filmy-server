@@ -30,7 +30,8 @@ def fetch():
             program[room][day] = requests.get(app.config['DB_SERVER'] + f'/api/query/film?room={room}&day={day}').json()
     app.config['CONFIG']['PROGRAM'] = program
     write_config()
-    return '200'
+    flash('Data ze serveru úspěšně získána')
+    return redirect(url_for('dashboard'))
 
 @app.route('/get_program/<room>')
 def get_program(room):

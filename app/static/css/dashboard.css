@@ -41,9 +41,10 @@
     border-top: 1px solid var(--border-color);
     border-top-left-radius: var(--border-radius);
     display: flex;
+    gap: .5rem;
 }
 
-.change-day button {
+.toolbar button {
     background-color: var(--log-color);
     color: var(--text-color);
     outline: none;
@@ -52,7 +53,7 @@
     border: none;
 }
 
-.change-day {
+.toolbar div {
     background-color: var(--secondary-color);
     padding: 0.5rem;
     border-radius: var(--border-radius);

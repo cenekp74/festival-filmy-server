@@ -1,55 +1,17 @@
 {
     "current_day": 0,
     "ROOMS": [
-        "II",
-        "V",
         "VII",
+        "VI",
+        "II",
         "VIII",
         "IIII",
         "III",
-        "VI",
         "IV",
-        "I"
+        "I",
+        "V"
     ],
     "PROGRAM": {
-        "II": {
-            "1": [
-                {
-                    "day": 1,
-                    "filename": null,
-                    "id": 4,
-                    "item_type": "film",
-                    "language": "cz",
-                    "link": "lol",
-                    "name": "Lorem ipsum film",
-                    "room": "II",
-                    "time_from": "08:14",
-                    "time_to": "09:05",
-                    "uid": "f_4"
-                }
-            ],
-            "2": [],
-            "3": []
-        },
-        "V": {
-            "1": [
-                {
-                    "day": 1,
-                    "filename": null,
-                    "id": 7,
-                    "item_type": "film",
-                    "language": "cz",
-                    "link": "lol",
-                    "name": "Lorem ipsum film",
-                    "room": "V",
-                    "time_from": "08:17",
-                    "time_to": "09:04",
-                    "uid": "f_7"
-                }
-            ],
-            "2": [],
-            "3": []
-        },
         "VII": {
             "1": [
                 {
@@ -64,6 +26,44 @@
                     "time_from": "09:11",
                     "time_to": "12:07",
                     "uid": "f_8"
+                }
+            ],
+            "2": [],
+            "3": []
+        },
+        "VI": {
+            "1": [],
+            "2": [],
+            "3": [
+                {
+                    "day": 3,
+                    "filename": null,
+                    "id": 2,
+                    "item_type": "film",
+                    "language": "en",
+                    "link": "https://chess-results.com/tnr806991.aspx?lan=1&art=14&turdet=YES&flag=30",
+                    "name": "Petruv ultra dobry film",
+                    "room": "VI",
+                    "time_from": "09:30",
+                    "time_to": "14:00",
+                    "uid": "f_2"
+                }
+            ]
+        },
+        "II": {
+            "1": [
+                {
+                    "day": 1,
+                    "filename": null,
+                    "id": 4,
+                    "item_type": "film",
+                    "language": "cz",
+                    "link": "lol",
+                    "name": "Lorem ipsum film",
+                    "room": "II",
+                    "time_from": "08:14",
+                    "time_to": "09:05",
+                    "uid": "f_4"
                 }
             ],
             "2": [],
@@ -140,25 +140,6 @@
             ],
             "3": []
         },
-        "VI": {
-            "1": [],
-            "2": [],
-            "3": [
-                {
-                    "day": 3,
-                    "filename": null,
-                    "id": 2,
-                    "item_type": "film",
-                    "language": "en",
-                    "link": "https://chess-results.com/tnr806991.aspx?lan=1&art=14&turdet=YES&flag=30",
-                    "name": "Petruv ultra dobry film",
-                    "room": "VI",
-                    "time_from": "09:30",
-                    "time_to": "14:00",
-                    "uid": "f_2"
-                }
-            ]
-        },
         "IV": {
             "1": [
                 {
@@ -192,6 +173,25 @@
                     "time_from": "08:13",
                     "time_to": "12:00",
                     "uid": "f_3"
+                }
+            ],
+            "2": [],
+            "3": []
+        },
+        "V": {
+            "1": [
+                {
+                    "day": 1,
+                    "filename": null,
+                    "id": 7,
+                    "item_type": "film",
+                    "language": "cz",
+                    "link": "lol",
+                    "name": "Lorem ipsum film",
+                    "room": "V",
+                    "time_from": "08:17",
+                    "time_to": "09:04",
+                    "uid": "f_7"
                 }
             ],
             "2": [],
