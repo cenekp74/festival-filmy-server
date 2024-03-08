@@ -1,5 +1,10 @@
 :root {
     --border-color: #3c4d42;
+    --client-item-color: #2b2a33;
+}
+
+.content {
+    width: 100vw;
 }
 
 .user-info {
@@ -10,4 +15,39 @@
     border-right: 1px solid var(--border-color);
     border-bottom: 1px solid var(--border-color);
     border-bottom-right-radius: var(--border-radius);
+}
+
+.clients-box {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    margin: 5rem 2rem
+}
+
+.client-item {
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 0.5rem;
+    background-color: var(--client-item-color);
+    position: relative;
+}
+
+.client-item .client-details {
+    margin-top: 2.5rem;
+}
+
+.client-item .room-name {
+    font-size: 150%;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0.5rem;
+    border-bottom-right-radius: var(--border-radius);
+    border-bottom: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+    width: 2.5rem;
+    text-align: center;
 }

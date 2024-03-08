@@ -5,5 +5,33 @@
         },
         "last_update": "2024.03.07-22:47",
         "status": "test msg"
+    },
+    "II": {
+        "log": {
+            "2024.03.08-15:53": "test2"
+        },
+        "last_update": "2024.03.08-15:53",
+        "status": "test2"
+    },
+    "III": {
+        "log": {
+            "2024.03.08-15:53": "test3"
+        },
+        "last_update": "2024.03.08-15:53",
+        "status": "test3"
+    },
+    "IV": {
+        "log": {
+            "2024.03.08-15:53": "test2"
+        },
+        "last_update": "2024.03.08-15:53",
+        "status": "test2"
+    },
+    "V": {
+        "log": {
+            "2024.03.08-15:54": "test"
+        },
+        "last_update": "2024.03.08-15:54",
+        "status": "test"
     }
 }
