@@ -16,7 +16,7 @@ def index():
 @app.route('/dashboard')
 @login_required
 def dashboard():
-    return render_template('dashboard.html', clients=app.clients)
+    return render_template('dashboard.html', clients=app.clients, day=app.config['CONFIG']['current_day'])
 
 @app.route('/fetch')
 def fetch():
@@ -53,6 +53,17 @@ def cilent_msg(client):
 @app.route('/current_day')
 def current_day():
     return str(app.config['CONFIG']['current_day'])
+
+@login_required
+@app.route('/change_current_day/<day>')
+def change_current_day(day):
+    if day not in ['0', '1', '2', '3']:
+        flash('Zadejte číslo od 0 do 3')
+        return redirect(url_for('dashboard'))
+    app.config['CONFIG']['current_day'] = int(day)
+    write_config()
+    flash(f'Den změněn na: {day}')
+    return redirect(url_for('dashboard'))
 
 #region login
 @app.route('/login', methods=['GET', 'POST']) 

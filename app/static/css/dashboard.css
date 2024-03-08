@@ -26,10 +26,36 @@
     position: absolute;
     top: 0;
     left: 0;
-    padding: 1rem;
+    padding: .7rem;
     border-right: 1px solid var(--border-color);
     border-bottom: 1px solid var(--border-color);
     border-bottom-right-radius: var(--border-radius);
+}
+
+.toolbar {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: .7rem;
+    border-left: 1px solid var(--border-color);
+    border-top: 1px solid var(--border-color);
+    border-top-left-radius: var(--border-radius);
+    display: flex;
+}
+
+.change-day button {
+    background-color: var(--log-color);
+    color: var(--text-color);
+    outline: none;
+    border-radius: var(--border-radius);
+    padding: .5rem;
+    border: none;
+}
+
+.change-day {
+    background-color: var(--secondary-color);
+    padding: 0.5rem;
+    border-radius: var(--border-radius);
 }
 
 .clients-box {

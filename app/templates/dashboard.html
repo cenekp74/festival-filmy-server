@@ -11,6 +11,19 @@
     user: {{ current_user.username }}
 </div>
 
+<div class="toolbar">
+    <div class="change-day">
+        Den:
+        <select id="day-select">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        <button onclick="changeCurrentDay()">Potvrdit</button>
+    </div>
+</div>
+
 <div class="clients-box">
     {% for room, client in clients.items() %}
     <div class="client-item">
@@ -28,4 +41,8 @@
     {% endfor %}
 </div>
 <script src="{{ url_for('static', filename='/js/dashboard.js') }}"></script>
+<script>
+    let daySelectEle = document.getElementById('day-select')
+    daySelectEle.value = "{{ day }}"
+</script>
 {% endblock %}

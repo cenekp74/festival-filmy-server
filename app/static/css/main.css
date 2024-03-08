@@ -140,6 +140,7 @@ select {
     color: var(--text-color);
     border-radius: var(--border-radius);
     border: 1px solid var(--disabled-text-color);
+    padding: .3rem;
 }
 
 .form-group:not(:last-child) {
@@ -184,33 +185,3 @@ input.invalid {
     color: #dc3545;
 }
 /* #endregion forms */
-
-/* #region footer */
-footer {
-    color: var(--text-color);
-    text-align: center;
-    padding: 5px;
-    padding-top: 1px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--bg-color);
-    max-height: 56px;
-}
-
-.social-icons a {
-    display: inline-block;
-    margin: 0 10px;
-    color: var(--text-color);
-    text-decoration: none;
-    font-size: 20px;
-}
-
-.system-links {
-    font-size: 80%;
-}
-
-/* #endregion footer */
