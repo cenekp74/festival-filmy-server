@@ -256,10 +256,15 @@
             [
                 "2024.03.08 16:57",
                 "Playing film"
+            ],
+            [
+                "2024.03.08 20:23",
+                "Playing film"
             ]
         ],
-        "last_update": "2024.03.08 16:57",
-        "status": "Playing film"
+        "last_update": "2024.03.08 20:23",
+        "status": "Playing film",
+        "last_update_age": "4"
     },
     "II": {
         "log": [
@@ -517,7 +522,8 @@
             ]
         ],
         "last_update": "2024.03.08 16:57",
-        "status": "Playing film"
+        "status": "Playing film",
+        "last_update_age": "4"
     },
     "V": {
         "log": [
@@ -775,7 +781,8 @@
             ]
         ],
         "last_update": "2024.03.08 16:57",
-        "status": "Playing film"
+        "status": "Playing film",
+        "last_update_age": "4"
     },
     "VII": {
         "log": [
@@ -1033,7 +1040,8 @@
             ]
         ],
         "last_update": "2024.03.08 16:57",
-        "status": "Playing film"
+        "status": "Playing film",
+        "last_update_age": "4"
     },
     "VIII": {
         "log": [
@@ -1291,7 +1299,8 @@
             ]
         ],
         "last_update": "2024.03.08 16:57",
-        "status": "Playing film"
+        "status": "Playing film",
+        "last_update_age": "4"
     },
     "IIII": {
         "log": [
@@ -1549,7 +1558,8 @@
             ]
         ],
         "last_update": "2024.03.08 16:57",
-        "status": "Playing film"
+        "status": "Playing film",
+        "last_update_age": "4"
     },
     "VI": {
         "log": [
@@ -1807,7 +1817,8 @@
             ]
         ],
         "last_update": "2024.03.08 16:57",
-        "status": "Playing film"
+        "status": "Playing film",
+        "last_update_age": "4"
     },
     "IV": {
         "log": [
@@ -2065,7 +2076,8 @@
             ]
         ],
         "last_update": "2024.03.08 16:57",
-        "status": "Playing film"
+        "status": "Playing film",
+        "last_update_age": "4"
     },
     "I": {
         "log": [
@@ -2323,6 +2335,7 @@
             ]
         ],
         "last_update": "2024.03.08 16:57",
-        "status": "Playing film"
+        "status": "Playing film",
+        "last_update_age": "4"
     }
 }

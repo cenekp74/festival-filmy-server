@@ -6,6 +6,7 @@ from app.forms import LoginForm
 import requests
 from app.utils import write_config, load_config, write_clients, load_clients
 from datetime import datetime
+from datetime import timedelta
 
 @app.route('/')
 def index():
@@ -16,7 +17,18 @@ def index():
 @app.route('/dashboard')
 @login_required
 def dashboard():
-    return render_template('dashboard.html', clients=app.clients, day=app.config['CONFIG']['current_day'])
+    now = datetime.now()
+    clients = app.clients
+    for _, client in clients.items():
+        difference = now - datetime.strptime(client["last_update"], "%Y.%m.%d %H:%M")
+        client["last_update_age"] = "4"
+        if difference < timedelta(minutes=60):
+            client["last_update_age"] = "3"
+        if difference < timedelta(minutes=10):
+            client["last_update_age"] = "2"
+        if difference < timedelta(minutes=2):
+            client["last_update_age"] = "1"
+    return render_template('dashboard.html', clients=clients, day=app.config['CONFIG']['current_day'])
 
 @app.route('/fetch')
 def fetch():

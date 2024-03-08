@@ -90,6 +90,22 @@
     font-size: 80%;
 }
 
+.client-item .client-last-update i.age-4 {
+    color: black;
+}
+
+.client-item .client-last-update i.age-3 {
+    color: red;
+}
+
+.client-item .client-last-update i.age-2 {
+    color: yellow;
+}
+
+.client-item .client-last-update i.age-1 {
+    color: green;
+}
+
 .client-item .room-name {
     font-size: 150%;
     font-weight: bold;
@@ -114,6 +130,7 @@
     line-height: 1rem;
     overflow-y: scroll;
 }
+
 
 @media screen and (max-width: 1400px) {
     .clients-box {

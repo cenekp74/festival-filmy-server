@@ -31,7 +31,7 @@
     {% for room, client in clients.items() %}
     <div class="client-item">
         <div class="room-name">{{ room }}</div>
-        <div class="client-last-update">Last update: {{ client.last_update }}</div>
+        <div class="client-last-update">Last update: {{ client.last_update }} <i class="fa fa-circle age-{{ client['last_update_age'] }}" aria-hidden="true"></i></div>
         <div class="client-details">
             <div>status: <b>{{ client.status }}</b></div>
             <div class="log">
