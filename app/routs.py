@@ -15,7 +15,7 @@ def index():
     
 @app.route('/dashboard')
 def dashboard():
-    return render_template('dashboard.html')
+    return render_template('dashboard.html', clients=app.clients)
 
 @app.route('/fetch')
 def fetch():
@@ -56,6 +56,9 @@ def current_day():
 #region login
 @app.route('/login', methods=['GET', 'POST']) 
 def login():
+    if current_user.is_authenticated:
+        flash('Uživatel je již přihlášen')
+        return redirect(url_for('dashboard'))
     form = LoginForm()
     if form.validate_on_submit():
         user = User.query.filter_by(username=form.username.data).first()
