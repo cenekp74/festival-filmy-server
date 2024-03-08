@@ -18,7 +18,7 @@ def index():
 @login_required
 def dashboard():
     now = datetime.now()
-    clients = app.clients
+    clients = app.clients.copy()
     for _, client in clients.items():
         difference = now - datetime.strptime(client["last_update"], "%Y.%m.%d %H:%M")
         client["last_update_age"] = "4"
