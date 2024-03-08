@@ -48,6 +48,7 @@ def fetch():
 
 @app.route('/get_program/<room>')
 def get_program(room):
+    if room not in app.config['CONFIG']['ROOMS']: abort(400)
     return jsonify(app.config['CONFIG']['PROGRAM'][room])
 
 @app.post('/client/<client>/msg')

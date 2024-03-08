@@ -255,7 +255,8 @@
             ]
         ],
         "last_update": "2024.03.08 20:25",
-        "status": "Playing film"
+        "status": "Playing film",
+        "last_update_age": "3"
     },
     "V": {
         "log": [
@@ -513,7 +514,8 @@
             ]
         ],
         "last_update": "2024.03.08 20:25",
-        "status": "Playing film"
+        "status": "Playing film",
+        "last_update_age": "3"
     },
     "VII": {
         "log": [
@@ -771,7 +773,8 @@
             ]
         ],
         "last_update": "2024.03.08 20:25",
-        "status": "Playing film"
+        "status": "Playing film",
+        "last_update_age": "3"
     },
     "VIII": {
         "log": [
@@ -1029,7 +1032,8 @@
             ]
         ],
         "last_update": "2024.03.08 20:25",
-        "status": "Playing film"
+        "status": "Playing film",
+        "last_update_age": "3"
     },
     "IIII": {
         "log": [
@@ -1287,7 +1291,8 @@
             ]
         ],
         "last_update": "2024.03.08 20:25",
-        "status": "Playing film"
+        "status": "Playing film",
+        "last_update_age": "3"
     },
     "III": {
         "log": [
@@ -1542,10 +1547,15 @@
             [
                 "2024.03.08 20:25",
                 "Playing film"
+            ],
+            [
+                "2024.03.08 20:51",
+                "Waiting for time"
             ]
         ],
-        "last_update": "2024.03.08 20:25",
-        "status": "Playing film"
+        "last_update": "2024.03.08 20:51",
+        "status": "Waiting for time",
+        "last_update_age": "3"
     },
     "VI": {
         "log": [
@@ -1803,7 +1813,8 @@
             ]
         ],
         "last_update": "2024.03.08 20:25",
-        "status": "Playing film"
+        "status": "Playing film",
+        "last_update_age": "3"
     },
     "IV": {
         "log": [
@@ -2061,7 +2072,8 @@
             ]
         ],
         "last_update": "2024.03.08 20:25",
-        "status": "Playing film"
+        "status": "Playing film",
+        "last_update_age": "3"
     },
     "I": {
         "log": [
@@ -2316,9 +2328,46 @@
             [
                 "2024.03.08 20:25",
                 "Playing film"
+            ],
+            [
+                "2024.03.08 21:09",
+                "test"
+            ],
+            [
+                "2024.03.08 21:10",
+                "test"
+            ],
+            [
+                "2024.03.08 21:10",
+                "test"
+            ],
+            [
+                "2024.03.08 21:10",
+                "test"
+            ],
+            [
+                "2024.03.08 21:10",
+                "test"
+            ],
+            [
+                "2024.03.08 21:10",
+                "test"
+            ],
+            [
+                "2024.03.08 21:11",
+                "test"
+            ],
+            [
+                "2024.03.08 21:11",
+                "test"
+            ],
+            [
+                "2024.03.08 21:11",
+                "test"
             ]
         ],
-        "last_update": "2024.03.08 20:25",
-        "status": "Playing film"
+        "last_update": "2024.03.08 21:11",
+        "status": "test",
+        "last_update_age": "1"
     }
 }
