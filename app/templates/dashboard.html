@@ -15,6 +15,7 @@
     {% for room, client in clients.items() %}
     <div class="client-item">
         <div class="room-name">{{ room }}</div>
+        <div class="client-last-update">Last update: {{ client.last_update }}</div>
         <div class="client-details">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, officia dolores veritatis quas fugiat rem fuga cupiditate deleniti, ullam nulla nobis nesciunt, maxime voluptates est non quidem. Blanditiis, minima facere!</div>
     </div>
     {% endfor %}

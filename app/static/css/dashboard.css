@@ -38,6 +38,15 @@
     margin-top: 2.5rem;
 }
 
+.client-item .client-last-update {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.4rem;
+    text-align: center;
+    font-size: 80%;
+}
+
 .client-item .room-name {
     font-size: 150%;
     font-weight: bold;
