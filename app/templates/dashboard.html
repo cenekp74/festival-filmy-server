@@ -16,7 +16,9 @@
     <div class="client-item">
         <div class="room-name">{{ room }}</div>
         <div class="client-last-update">Last update: {{ client.last_update }}</div>
-        <div class="client-details">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, officia dolores veritatis quas fugiat rem fuga cupiditate deleniti, ullam nulla nobis nesciunt, maxime voluptates est non quidem. Blanditiis, minima facere!</div>
+        <div class="client-details">
+            <div>status: <b>{{ client.status }}</b></div>
+        </div>
     </div>
     {% endfor %}
 </div>

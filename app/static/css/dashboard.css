@@ -22,7 +22,8 @@
     gap: 1rem;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto;
-    margin: 5rem 2rem
+    padding: 5rem 2rem;
+    width: 100%;
 }
 
 .client-item {
@@ -35,7 +36,7 @@
 }
 
 .client-item .client-details {
-    margin-top: 2.5rem;
+    margin-top: 2.6rem;
 }
 
 .client-item .client-last-update {
