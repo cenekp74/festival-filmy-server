@@ -14,6 +14,17 @@ function fetch() {
     }
 }
 
+function displayMinutesPassed() {
+    var startTime = new Date();
+    setInterval(function() {
+        var currentTime = new Date();
+        var timeDiff = Math.floor((currentTime - startTime) / 60000);
+        document.getElementById('minutes').innerHTML = timeDiff + "min";
+    }, 60000);
+}
+
+displayMinutesPassed();
+
 let log_elements = document.querySelectorAll('.log')
 log_elements.forEach(element => {
     element.scrollTop = element.scrollHeight;

@@ -17,6 +17,7 @@ def index():
 @app.route('/dashboard')
 @login_required
 def dashboard():
+    # tohle je kvuli barvickam
     now = datetime.now()
     clients = app.clients.copy()
     for _, client in clients.items():

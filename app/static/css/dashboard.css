@@ -131,6 +131,15 @@
     overflow-y: scroll;
 }
 
+.timer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: .4rem;
+    z-index: 1;
+    background-color: var(--bg-color);
+    border-bottom-left-radius: var(--border-radius);
+}
 
 @media screen and (max-width: 1400px) {
     .clients-box {
