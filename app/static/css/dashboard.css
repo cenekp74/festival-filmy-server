@@ -71,4 +71,5 @@
     padding: .5rem;
     height: 6rem;
     line-height: 1rem;
+    overflow-y: scroll;
 }

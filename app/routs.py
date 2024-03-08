@@ -41,10 +41,10 @@ def cilent_msg(client):
     if client not in app.config['CONFIG']['ROOMS']: abort(400)
     if client not in app.clients:
         app.clients[client] = {}
-        app.clients[client]["log"] = {}
+        app.clients[client]["log"] = []
     msg = request.get_data(as_text=True)
-    now = datetime.now().strftime("%Y.%m.%d-%H:%M")
-    app.clients[client]["log"][now] = msg
+    now = datetime.now().strftime("%Y.%m.%d %H:%M")
+    app.clients[client]["log"].append((now, msg))
     app.clients[client]["last_update"] = now
     app.clients[client]["status"] = msg
     write_clients()
