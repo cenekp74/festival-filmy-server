@@ -9,11 +9,11 @@
 }
 
 .log::-webkit-scrollbar {
-    width: 10px;
+    width: 5px;
 }
 
 .log::-webkit-scrollbar-thumb {
-    background: #666;
+    background: #959595;
     border-radius: 20px;
 }
 
