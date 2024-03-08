@@ -1,6 +1,6 @@
 from app import app, db, bcrypt
 from flask import flash, render_template, redirect, url_for, jsonify, abort, request
-from flask_login import login_user, logout_user, current_user
+from flask_login import login_user, logout_user, current_user, login_required
 from app.db_classes import User
 from app.forms import LoginForm
 import requests
@@ -14,6 +14,7 @@ def index():
     return redirect(url_for('login'))
     
 @app.route('/dashboard')
+@login_required
 def dashboard():
     return render_template('dashboard.html', clients=app.clients)
 
