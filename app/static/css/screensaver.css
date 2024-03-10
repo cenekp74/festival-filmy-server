@@ -1,6 +1,6 @@
 :root {
     --screensaver-bg: #272727;
-    --screensaver-text-color:#272727;
+    --screensaver-text-color: white;
     --time-box-color: #ffd868;
 }
 
@@ -13,7 +13,27 @@ body {
     justify-content: center;
     background-color: var(--screensaver-bg);
     color: var(--screensaver-text-color); 
-    font-family: Arial, sans-serif;
+    font-family: monospace;
+}
+
+
+.details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.details .schledule {
+    border-top: 1px solid var(--time-box-color);
+    border-right: 1px solid var(--time-box-color);
+    border-top-right-radius: 10px;
+    padding: 1rem;
+    font-size: 1.7rem;
+}
+
+.details .room {
+    padding-left: .5rem;
+    font-size: 2rem;
 }
 
 #time {
@@ -22,4 +42,5 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 30px var(--time-box-color);
     background-color: var(--time-box-color);
+    color: var(--screensaver-bg);
 }

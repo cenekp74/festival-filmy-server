@@ -9227,9 +9227,53 @@
             [
                 "2024.03.10 11:37",
                 "Waiting for 20:00 to play zili.mp4"
+            ],
+            [
+                "2024.03.10 11:43",
+                "Starting"
+            ],
+            [
+                "2024.03.10 11:43",
+                "Fetched program"
+            ],
+            [
+                "2024.03.10 11:43",
+                "Schledule created"
+            ],
+            [
+                "2024.03.10 11:43",
+                "Fetched current day"
+            ],
+            [
+                "2024.03.10 11:43",
+                "Continuing with day: 2"
+            ],
+            [
+                "2024.03.10 11:43",
+                "Missing media files: None,,,,1.mp4,2.mp4,3.mp4 - continuing anyway"
+            ],
+            [
+                "2024.03.10 11:43",
+                "Started after 08:00 - skipping 1.mp4"
+            ],
+            [
+                "2024.03.10 11:43",
+                "Started after 08:05 - skipping 2.mp4"
+            ],
+            [
+                "2024.03.10 11:43",
+                "Started after 08:15 - skipping 3.mp4"
+            ],
+            [
+                "2024.03.10 11:43",
+                "Waiting for 20:00 to play zili.mp4"
+            ],
+            [
+                "2024.03.10 11:44",
+                "Waiting for 20:00 to play zili.mp4"
             ]
         ],
-        "last_update": "2024.03.10 11:37",
+        "last_update": "2024.03.10 11:44",
         "status": "Waiting for 20:00 to play zili.mp4",
         "last_update_age": "3"
     },

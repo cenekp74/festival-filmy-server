@@ -8,7 +8,14 @@
 </head>
 <body>
     <div id="time"></div>
-
+    <div class="details">
+        <div class="room">Místnost: {{ room }}</div>
+        <div class="schledule">
+            {% for film in schledule %}
+            <div>{{ film[0] }} - {{ film[1] }}: {{ film[2] }}</div>
+            {% endfor %}
+        </div>
+    </div>
     <script src="{{ url_for('static', filename='/js/screensaver.js') }}"></script>
 </body>
 </html>

@@ -83,7 +83,13 @@ def change_current_day(day):
 @app.route('/screensaver/<room>')
 def screensaver(room):
     if room not in app.config['CONFIG']['ROOMS']: abort(400)
-    return render_template('screensaver.html')
+    program = app.config['CONFIG']['PROGRAM'][room]
+    schledule = []
+    if app.config['CONFIG']['current_day'] != 0:
+        for film in app.config['CONFIG']['PROGRAM'][room][str(app.config['CONFIG']['current_day'])]:
+            schledule.append((film["time_from"], film["time_to"], film["name"]))
+        schledule = sorted(schledule, key=lambda x: x[0])
+    return render_template('screensaver.html', room=room, schledule=schledule)
 
 #region login
 @app.route('/login', methods=['GET', 'POST']) 
