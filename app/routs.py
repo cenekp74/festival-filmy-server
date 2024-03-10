@@ -80,6 +80,11 @@ def change_current_day(day):
     flash(f'Den změněn na: {day}')
     return redirect(url_for('dashboard'))
 
+@app.route('/screensaver/<room>')
+def screensaver(room):
+    if room not in app.config['CONFIG']['ROOMS']: abort(400)
+    return render_template('screensaver.html')
+
 #region login
 @app.route('/login', methods=['GET', 'POST']) 
 def login():

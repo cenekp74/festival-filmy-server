@@ -1,0 +1,25 @@
+:root {
+    --screensaver-bg: #272727;
+    --screensaver-text-color:#272727;
+    --time-box-color: #ffd868;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--screensaver-bg);
+    color: var(--screensaver-text-color); 
+    font-family: Arial, sans-serif;
+}
+
+#time {
+    font-size: 4em;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px var(--time-box-color);
+    background-color: var(--time-box-color);
+}
