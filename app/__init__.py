@@ -11,6 +11,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'
 app.config['DB_SERVER'] = 'http://127.0.0.1:8963'
 app.config['CONFIG_FILE_PATH'] = 'app/config.json'
 app.config['CLIENTS_FILE_PATH'] = 'app/clients.json'
+app.config['LOG_ARCHIVE_FOLDER'] = 'app/log_archive/'
 
 from .utils import load_config, load_clients
 load_config()

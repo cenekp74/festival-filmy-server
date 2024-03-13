@@ -1,5 +1,7 @@
 from app import app
 import json
+import shutil
+import datetime
 
 def load_config():
     with open(app.config['CONFIG_FILE_PATH'], 'r') as f:
@@ -16,3 +18,7 @@ def load_clients():
 def write_clients():
     with open(app.config['CLIENTS_FILE_PATH'], 'w') as f:
         json.dump(app.clients, f, indent=4)
+
+def create_clients_backup():
+    timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    shutil.copy2(app.config['CLIENTS_FILE_PATH'], app.config['LOG_ARCHIVE_FOLDER']+timestamp+'.json')

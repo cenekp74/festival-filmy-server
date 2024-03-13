@@ -4,7 +4,7 @@ from flask_login import login_user, logout_user, current_user, login_required
 from app.db_classes import User
 from app.forms import LoginForm
 import requests
-from app.utils import write_config, load_config, write_clients, load_clients
+from app.utils import write_config, load_config, write_clients, load_clients, create_clients_backup
 from datetime import datetime
 from datetime import timedelta
 
@@ -33,6 +33,7 @@ def dashboard():
     unconnected_rooms = [room for room in app.config['CONFIG']['ROOMS'] if room not in client_rooms]
     return render_template('dashboard.html', clients=clients, day=app.config['CONFIG']['current_day'], unconnected=unconnected_rooms)
 
+@login_required
 @app.route('/fetch')
 def fetch():
     rooms = requests.get(app.config['DB_SERVER'] + '/api/get_rooms_for_films').json()
@@ -46,6 +47,15 @@ def fetch():
     app.config['CONFIG']['PROGRAM'] = program
     write_config()
     flash('Data ze serveru úspěšně získána')
+    return redirect(url_for('dashboard'))
+
+@login_required
+@app.route('/delete_logs')
+def delete_logs():
+    create_clients_backup()
+    app.clients = {}
+    write_clients()
+    flash('Data úspěšně smazána')
     return redirect(url_for('dashboard'))
 
 @app.route('/get_program/<room>')

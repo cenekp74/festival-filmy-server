@@ -14,6 +14,13 @@ function fetch() {
     }
 }
 
+function delete_logs() {
+    response = confirm('Opravdu si přejete smazat logy? Automaticky se vytvoří záloha ve složce log_archive. ');
+    if (response) {
+        window.location.href = "/delete_logs"
+    }
+}
+
 function displayMinutesPassed() {
     var startTime = new Date();
     setInterval(function() {
