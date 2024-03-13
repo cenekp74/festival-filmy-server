@@ -172,4 +172,13 @@ mark {
         grid-template-columns: 1fr;
         padding: 3.5rem 1rem;
     }
+
+    .toolbar {
+        padding: .4rem;
+        gap: .1rem;
+    }
+
+    .toolbar div {
+        padding: .3rem;
+    }
 }
