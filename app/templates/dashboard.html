@@ -44,6 +44,16 @@
         </div>
     </div>
     {% endfor %}
+    {% if unconnected %}
+    <div class="client-item">
+        <div>Nepřipojené místnosti:</div>
+        <ul style="columns: 2;">
+            {% for room in unconnected %}
+            <li>{{ room }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
 </div>
 <script src="{{ url_for('static', filename='/js/dashboard.js') }}"></script>
 <script>

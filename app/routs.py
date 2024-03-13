@@ -29,7 +29,9 @@ def dashboard():
             client["last_update_age"] = "2"
         if difference < timedelta(minutes=2):
             client["last_update_age"] = "1"
-    return render_template('dashboard.html', clients=clients, day=app.config['CONFIG']['current_day'])
+    client_rooms = list(clients.keys())
+    unconnected_rooms = [room for room in app.config['CONFIG']['ROOMS'] if room not in client_rooms]
+    return render_template('dashboard.html', clients=clients, day=app.config['CONFIG']['current_day'], unconnected=unconnected_rooms)
 
 @app.route('/fetch')
 def fetch():
