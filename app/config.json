@@ -1,17 +1,132 @@
 {
-    "current_day": 2,
+    "current_day": 3,
     "ROOMS": [
-        "I",
-        "IV",
-        "VII",
-        "IIII",
-        "VIII",
         "III",
-        "II",
+        "IV",
+        "VI",
+        "MU",
+        "I",
+        "IIII",
         "V",
-        "VI"
+        "VIII"
     ],
     "PROGRAM": {
+        "III": {
+            "1": [
+                {
+                    "day": 1,
+                    "filename": "",
+                    "id": 5,
+                    "item_type": "film",
+                    "language": "cz",
+                    "link": "lol",
+                    "name": "Lorem ipsum film",
+                    "room": "III",
+                    "time_from": "09:50",
+                    "time_to": "12:26",
+                    "uid": "f_5"
+                },
+                {
+                    "day": 1,
+                    "filename": null,
+                    "id": 8,
+                    "item_type": "film",
+                    "language": "cz",
+                    "link": "lol",
+                    "name": "Lorem ipsum film",
+                    "room": "III",
+                    "time_from": "08:15",
+                    "time_to": "09:15",
+                    "uid": "f_8"
+                }
+            ],
+            "2": [
+                {
+                    "day": 2,
+                    "filename": "ttset",
+                    "id": 9,
+                    "item_type": "film",
+                    "language": "cz",
+                    "link": "test",
+                    "name": "TERST",
+                    "room": "III",
+                    "time_from": "12:00",
+                    "time_to": "13:00",
+                    "uid": "f_9"
+                }
+            ],
+            "3": []
+        },
+        "IV": {
+            "1": [
+                {
+                    "day": 1,
+                    "filename": null,
+                    "id": 6,
+                    "item_type": "film",
+                    "language": "cz",
+                    "link": "lol",
+                    "name": "Lorem ipsum film",
+                    "room": "IV",
+                    "time_from": "08:46",
+                    "time_to": "12:46",
+                    "uid": "f_6"
+                }
+            ],
+            "2": [],
+            "3": []
+        },
+        "VI": {
+            "1": [],
+            "2": [],
+            "3": [
+                {
+                    "day": 3,
+                    "filename": null,
+                    "id": 2,
+                    "item_type": "film",
+                    "language": "en",
+                    "link": "https://chess-results.com/tnr806991.aspx?lan=1&art=14&turdet=YES&flag=30",
+                    "name": "Petruv ultra dobry film",
+                    "room": "VI",
+                    "time_from": "09:30",
+                    "time_to": "14:00",
+                    "uid": "f_2"
+                }
+            ]
+        },
+        "MU": {
+            "1": [],
+            "2": [
+                {
+                    "day": 2,
+                    "filename": "",
+                    "id": 21,
+                    "item_type": "film",
+                    "language": "cz",
+                    "link": "sdgfsdf",
+                    "name": "sdfdsg",
+                    "room": "MU",
+                    "time_from": "08:00",
+                    "time_to": "09:00",
+                    "uid": "f_21"
+                },
+                {
+                    "day": 2,
+                    "filename": "",
+                    "id": 22,
+                    "item_type": "film",
+                    "language": "cz",
+                    "link": "sdgfsdf",
+                    "name": "sdfdsg",
+                    "room": "MU",
+                    "time_from": "08:00",
+                    "time_to": "09:00",
+                    "uid": "f_22"
+                }
+            ],
+            "3": []
+        },
         "I": {
             "1": [
                 {
@@ -26,44 +141,6 @@
                     "time_from": "08:13",
                     "time_to": "12:00",
                     "uid": "f_3"
-                }
-            ],
-            "2": [],
-            "3": []
-        },
-        "IV": {
-            "1": [
-                {
-                    "day": 1,
-                    "filename": null,
-                    "id": 6,
-                    "item_type": "film",
-                    "language": "cz",
-                    "link": "lol",
-                    "name": "Lorem ipsum film",
-                    "room": "IV",
-                    "time_from": "08:06",
-                    "time_to": "12:06",
-                    "uid": "f_6"
-                }
-            ],
-            "2": [],
-            "3": []
-        },
-        "VII": {
-            "1": [
-                {
-                    "day": 1,
-                    "filename": null,
-                    "id": 8,
-                    "item_type": "film",
-                    "language": "cz",
-                    "link": "lol",
-                    "name": "Lorem ipsum film",
-                    "room": "VII",
-                    "time_from": "09:11",
-                    "time_to": "12:07",
-                    "uid": "f_8"
                 }
             ],
             "2": [],
@@ -85,85 +162,27 @@
                     "time_from": "12:00",
                     "time_to": "14:00",
                     "uid": "f_10"
+                },
+                {
+                    "day": 3,
+                    "filename": "",
+                    "id": 23,
+                    "item_type": "film",
+                    "language": "cz",
+                    "link": "asdf",
+                    "name": "sdaf",
+                    "room": "IIII",
+                    "time_from": "08:08",
+                    "time_to": "10:08",
+                    "uid": "f_23"
                 }
             ]
-        },
-        "VIII": {
-            "1": [
-                {
-                    "day": 1,
-                    "filename": null,
-                    "id": 1,
-                    "item_type": "film",
-                    "language": "cz tit",
-                    "link": "idk.com",
-                    "name": "test filmu v cestine (edit na cz tit)",
-                    "room": "VIII",
-                    "time_from": "12:00",
-                    "time_to": "14:00",
-                    "uid": "f_1"
-                }
-            ],
-            "2": [],
-            "3": []
-        },
-        "III": {
-            "1": [
-                {
-                    "day": 1,
-                    "filename": null,
-                    "id": 5,
-                    "item_type": "film",
-                    "language": "cz",
-                    "link": "lol",
-                    "name": "Lorem ipsum film",
-                    "room": "III",
-                    "time_from": "09:05",
-                    "time_to": "10:45",
-                    "uid": "f_5"
-                }
-            ],
-            "2": [
-                {
-                    "day": 2,
-                    "filename": "ttset",
-                    "id": 9,
-                    "item_type": "film",
-                    "language": "cz",
-                    "link": "test",
-                    "name": "TERST",
-                    "room": "III",
-                    "time_from": "12:00",
-                    "time_to": "13:00",
-                    "uid": "f_9"
-                }
-            ],
-            "3": []
-        },
-        "II": {
-            "1": [
-                {
-                    "day": 1,
-                    "filename": null,
-                    "id": 4,
-                    "item_type": "film",
-                    "language": "cz",
-                    "link": "lol",
-                    "name": "Lorem ipsum film",
-                    "room": "II",
-                    "time_from": "08:14",
-                    "time_to": "09:05",
-                    "uid": "f_4"
-                }
-            ],
-            "2": [],
-            "3": []
         },
         "V": {
             "1": [
                 {
                     "day": 1,
-                    "filename": null,
+                    "filename": "",
                     "id": 7,
                     "item_type": "film",
                     "language": "cz",
@@ -183,8 +202,8 @@
                     "link": "asdf",
                     "name": "filmm",
                     "room": "V",
-                    "time_from": "12:30",
-                    "time_to": "13:30",
+                    "time_from": "12:09",
+                    "time_to": "13:09",
                     "uid": "f_11"
                 },
                 {
@@ -307,26 +326,53 @@
                     "uid": "f_20"
                 }
             ],
-            "3": []
-        },
-        "VI": {
-            "1": [],
-            "2": [],
             "3": [
                 {
                     "day": 3,
-                    "filename": null,
-                    "id": 2,
+                    "filename": "Inside.Out.2015.1080p.BluRay.CZ.SK.DD.5.1.x264-MTK.mkv",
+                    "id": 25,
                     "item_type": "film",
-                    "language": "en",
-                    "link": "https://chess-results.com/tnr806991.aspx?lan=1&art=14&turdet=YES&flag=30",
-                    "name": "Petruv ultra dobry film",
-                    "room": "VI",
-                    "time_from": "09:30",
-                    "time_to": "14:00",
-                    "uid": "f_2"
+                    "language": "cz",
+                    "link": "null",
+                    "name": "v hlave",
+                    "room": "V",
+                    "time_from": "09:20",
+                    "time_to": "10:55",
+                    "uid": "f_25"
                 }
             ]
+        },
+        "VIII": {
+            "1": [
+                {
+                    "day": 1,
+                    "filename": null,
+                    "id": 1,
+                    "item_type": "film",
+                    "language": "cz tit",
+                    "link": "idk.com",
+                    "name": "test filmu v cestine (edit na cz tit)",
+                    "room": "VIII",
+                    "time_from": "09:25",
+                    "time_to": "11:25",
+                    "uid": "f_1"
+                },
+                {
+                    "day": 1,
+                    "filename": "",
+                    "id": 24,
+                    "item_type": "film",
+                    "language": "cz",
+                    "link": "https://google.com",
+                    "name": "test",
+                    "room": "VIII",
+                    "time_from": "12:00",
+                    "time_to": "13:20",
+                    "uid": "f_24"
+                }
+            ],
+            "2": [],
+            "3": []
         }
     }
 }
