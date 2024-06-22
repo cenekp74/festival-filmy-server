@@ -38,6 +38,12 @@ body {
     min-height: 100svh;
 }
 
+.nav-link { /* pro link vedouci z programu na dashboard a naopak */
+    position: fixed;
+    bottom: .3rem;
+    left: .3rem;
+}
+
 a {
     color: var(--link-color)
 }

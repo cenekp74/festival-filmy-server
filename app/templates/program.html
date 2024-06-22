@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='/css/program.css') }}">
+{% endblock %}
+
+
+{% block body %}
+<h1>Program lokálně uložený na serveru</h1>
+<div class="program">
+    {% for room, room_program in program.items() %}
+        <div class="program-room">
+            <h2>Místnost {{ room }}</h2>
+            {% for day, day_program in room_program.items() %}
+                <h3>Den {{ day   }}</h3>
+                <table>
+                    <tr>
+                        <th>id</th>
+                        <th>název</th>
+                        <th>od</th>
+                        <th>do</th>
+                        <th>filename</th>
+                    </tr>
+                    {% for film in day_program %}
+                    <tr>
+                        <td>{{ film.id }}</td>
+                        <td>{{ film.name }}</td>
+                        <td>{{ film.time_from }}</td>
+                        <td>{{ film.time_to }}</td>
+                        <td>{{ film.filename }}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            {% endfor %}
+        </div>
+    {% endfor %}
+</div>
+<a href="{{ url_for('dashboard') }}" class="nav-link">dashboard</a>
+{% endblock %}
+

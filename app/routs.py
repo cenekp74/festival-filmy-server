@@ -103,6 +103,11 @@ def screensaver(room):
         schledule = sorted(schledule, key=lambda x: x[0])
     return render_template('screensaver.html', room=room, schledule=schledule)
 
+@app.route("/program") # basic zobrazeni lokalne ulozeneho programu
+def program():
+    program = app.config['CONFIG']['PROGRAM']
+    return render_template("program.html", program=program)
+
 #region login
 @app.route('/login', methods=['GET', 'POST']) 
 def login():
