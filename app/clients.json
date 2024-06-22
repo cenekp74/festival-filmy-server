@@ -4247,11 +4247,1047 @@
             [
                 "2024.03.29 09:42",
                 "Critical error - FileNotFoundError(2, 'The system cannot find the path specified') - restarting"
+            ],
+            [
+                "2024.04.07 12:42",
+                "Starting"
+            ],
+            [
+                "2024.04.07 12:42",
+                "Fetched program"
+            ],
+            [
+                "2024.04.07 12:42",
+                "Schledule created"
+            ],
+            [
+                "2024.04.07 12:42",
+                "Fetched current day"
+            ],
+            [
+                "2024.04.07 12:42",
+                "Continuing with day: 3"
+            ],
+            [
+                "2024.04.07 12:42",
+                "Missing media files: ,,,,1.mp4,2.mp4,3.mp4 - continuing anyway"
+            ],
+            [
+                "2024.04.07 12:42",
+                "Started after 09:20 - skipping Inside.Out.2015.1080p.BluRay.CZ.SK.DD.5.1.x264-MTK.mkv"
+            ],
+            [
+                "2024.04.07 12:42",
+                "Waiting for 12:45 to play inside_out_en_all_subtit.mkv"
+            ],
+            [
+                "2024.04.07 12:43",
+                "Waiting for 12:45 to play inside_out_en_all_subtit.mkv"
+            ],
+            [
+                "2024.04.07 12:44",
+                "Waiting for 12:45 to play inside_out_en_all_subtit.mkv"
+            ],
+            [
+                "2024.04.07 12:45",
+                "Starting playback: inside_out_en_all_subtit.mkv"
+            ],
+            [
+                "2024.04.07 12:46",
+                "Playing inside_out_en_all_subtit.mkv"
+            ],
+            [
+                "2024.04.07 12:47",
+                "Playing inside_out_en_all_subtit.mkv"
+            ],
+            [
+                "2024.04.07 12:47",
+                "Starting"
+            ],
+            [
+                "2024.04.07 12:47",
+                "Fetched program"
+            ],
+            [
+                "2024.04.07 12:47",
+                "Schledule created"
+            ],
+            [
+                "2024.04.07 12:47",
+                "Fetched current day"
+            ],
+            [
+                "2024.04.07 12:47",
+                "Continuing with day: 3"
+            ],
+            [
+                "2024.04.07 12:47",
+                "Missing media files: ,,,,1.mp4,2.mp4,3.mp4 - continuing anyway"
+            ],
+            [
+                "2024.04.07 12:47",
+                "Started after 09:20 - skipping Inside.Out.2015.1080p.BluRay.CZ.SK.DD.5.1.x264-MTK.mkv"
+            ],
+            [
+                "2024.04.07 12:47",
+                "Starting playback: inside_out_en_all_subtit.mkv with delay"
+            ],
+            [
+                "2024.04.07 12:47",
+                "Starting"
+            ],
+            [
+                "2024.04.07 12:47",
+                "Fetched program"
+            ],
+            [
+                "2024.04.07 12:47",
+                "Schledule created"
+            ],
+            [
+                "2024.04.07 12:47",
+                "Fetched current day"
+            ],
+            [
+                "2024.04.07 12:47",
+                "Continuing with day: 3"
+            ],
+            [
+                "2024.04.07 12:47",
+                "Missing media files: ,,,,1.mp4,2.mp4,3.mp4 - continuing anyway"
+            ],
+            [
+                "2024.04.07 12:47",
+                "Started after 09:20 - skipping Inside.Out.2015.1080p.BluRay.CZ.SK.DD.5.1.x264-MTK.mkv"
+            ],
+            [
+                "2024.04.07 12:47",
+                "Starting playback: inside_out_en_all_subtit.mkv with delay"
+            ],
+            [
+                "2024.04.07 12:48",
+                "Starting"
+            ],
+            [
+                "2024.04.07 12:48",
+                "Fetched program"
+            ],
+            [
+                "2024.04.07 12:48",
+                "Schledule created"
+            ],
+            [
+                "2024.04.07 12:48",
+                "Fetched current day"
+            ],
+            [
+                "2024.04.07 12:48",
+                "Continuing with day: 3"
+            ],
+            [
+                "2024.04.07 12:48",
+                "Missing media files: ,,,,1.mp4,2.mp4,3.mp4 - continuing anyway"
+            ],
+            [
+                "2024.04.07 12:48",
+                "Started after 09:20 - skipping Inside.Out.2015.1080p.BluRay.CZ.SK.DD.5.1.x264-MTK.mkv"
+            ],
+            [
+                "2024.04.07 12:48",
+                "Starting playback: inside_out_en_all_subtit.mkv with delay"
+            ],
+            [
+                "2024.04.07 12:48",
+                "Critical error - PyGetWindowException('Error code from Windows: 0 - The operation completed successfully.') - restarting in 3s"
+            ],
+            [
+                "2024.04.07 12:48",
+                "Starting"
+            ],
+            [
+                "2024.04.07 12:48",
+                "Fetched program"
+            ],
+            [
+                "2024.04.07 12:48",
+                "Schledule created"
+            ],
+            [
+                "2024.04.07 12:48",
+                "Fetched current day"
+            ],
+            [
+                "2024.04.07 12:48",
+                "Continuing with day: 3"
+            ],
+            [
+                "2024.04.07 12:48",
+                "Missing media files: ,,,,1.mp4,2.mp4,3.mp4 - continuing anyway"
+            ],
+            [
+                "2024.04.07 12:48",
+                "Started after 09:20 - skipping Inside.Out.2015.1080p.BluRay.CZ.SK.DD.5.1.x264-MTK.mkv"
+            ],
+            [
+                "2024.04.07 12:48",
+                "Starting playback: inside_out_en_all_subtit.mkv with delay"
+            ],
+            [
+                "2024.04.07 12:48",
+                "Critical error - PyGetWindowException('Error code from Windows: 0 - The operation completed successfully.') - restarting in 3s"
+            ],
+            [
+                "2024.04.07 12:48",
+                "Starting"
+            ],
+            [
+                "2024.04.07 12:48",
+                "Fetched program"
+            ],
+            [
+                "2024.04.07 12:48",
+                "Schledule created"
+            ],
+            [
+                "2024.04.07 12:48",
+                "Fetched current day"
+            ],
+            [
+                "2024.04.07 12:48",
+                "Continuing with day: 3"
+            ],
+            [
+                "2024.04.07 12:48",
+                "Missing media files: ,,,,1.mp4,2.mp4,3.mp4 - continuing anyway"
+            ],
+            [
+                "2024.04.07 12:48",
+                "Started after 09:20 - skipping Inside.Out.2015.1080p.BluRay.CZ.SK.DD.5.1.x264-MTK.mkv"
+            ],
+            [
+                "2024.04.07 12:48",
+                "Starting playback: inside_out_en_all_subtit.mkv with delay"
+            ],
+            [
+                "2024.04.07 12:48",
+                "Critical error - PyGetWindowException('Error code from Windows: 0 - The operation completed successfully.') - restarting in 3s"
+            ],
+            [
+                "2024.04.07 12:51",
+                "Starting"
+            ],
+            [
+                "2024.04.07 12:51",
+                "Fetched program"
+            ],
+            [
+                "2024.04.07 12:51",
+                "Schledule created"
+            ],
+            [
+                "2024.04.07 12:51",
+                "Fetched current day"
+            ],
+            [
+                "2024.04.07 12:51",
+                "Continuing with day: 3"
+            ],
+            [
+                "2024.04.07 12:51",
+                "Missing media files: ,,,,1.mp4,2.mp4,3.mp4 - continuing anyway"
+            ],
+            [
+                "2024.04.07 12:51",
+                "Started after 09:20 - skipping Inside.Out.2015.1080p.BluRay.CZ.SK.DD.5.1.x264-MTK.mkv"
+            ],
+            [
+                "2024.04.07 12:51",
+                "Starting playback: inside_out_en_all_subtit.mkv with delay"
+            ],
+            [
+                "2024.04.07 12:51",
+                "Critical error - IndexError('list index out of range') - restarting in 3s"
+            ],
+            [
+                "2024.04.07 12:51",
+                "Starting"
+            ],
+            [
+                "2024.04.07 12:51",
+                "Fetched program"
+            ],
+            [
+                "2024.04.07 12:51",
+                "Schledule created"
+            ],
+            [
+                "2024.04.07 12:51",
+                "Fetched current day"
+            ],
+            [
+                "2024.04.07 12:51",
+                "Continuing with day: 3"
+            ],
+            [
+                "2024.04.07 12:51",
+                "Missing media files: ,,,,1.mp4,2.mp4,3.mp4 - continuing anyway"
+            ],
+            [
+                "2024.04.07 12:51",
+                "Started after 09:20 - skipping Inside.Out.2015.1080p.BluRay.CZ.SK.DD.5.1.x264-MTK.mkv"
+            ],
+            [
+                "2024.04.07 12:51",
+                "Starting playback: inside_out_en_all_subtit.mkv with delay"
+            ],
+            [
+                "2024.04.07 12:52",
+                "Starting"
+            ],
+            [
+                "2024.04.07 12:52",
+                "Fetched program"
+            ],
+            [
+                "2024.04.07 12:52",
+                "Schledule created"
+            ],
+            [
+                "2024.04.07 12:52",
+                "Fetched current day"
+            ],
+            [
+                "2024.04.07 12:52",
+                "Continuing with day: 3"
+            ],
+            [
+                "2024.04.07 12:52",
+                "Missing media files: ,,,,1.mp4,2.mp4,3.mp4 - continuing anyway"
+            ],
+            [
+                "2024.04.07 12:52",
+                "Started after 09:20 - skipping Inside.Out.2015.1080p.BluRay.CZ.SK.DD.5.1.x264-MTK.mkv"
+            ],
+            [
+                "2024.04.07 12:52",
+                "Starting playback: inside_out_en_all_subtit.mkv with delay"
+            ],
+            [
+                "2024.04.07 12:52",
+                "Starting"
+            ],
+            [
+                "2024.04.07 12:52",
+                "Fetched program"
+            ],
+            [
+                "2024.04.07 12:52",
+                "Schledule created"
+            ],
+            [
+                "2024.04.07 12:52",
+                "Fetched current day"
+            ],
+            [
+                "2024.04.07 12:52",
+                "Continuing with day: 3"
+            ],
+            [
+                "2024.04.07 12:52",
+                "Missing media files: ,,,,1.mp4,2.mp4,3.mp4 - continuing anyway"
+            ],
+            [
+                "2024.04.07 12:52",
+                "Started after 09:20 - skipping Inside.Out.2015.1080p.BluRay.CZ.SK.DD.5.1.x264-MTK.mkv"
+            ],
+            [
+                "2024.04.07 12:52",
+                "Starting playback: inside_out_en_all_subtit.mkv with delay"
+            ],
+            [
+                "2024.04.07 12:53",
+                "Starting"
+            ],
+            [
+                "2024.04.07 12:53",
+                "Fetched program"
+            ],
+            [
+                "2024.04.07 12:53",
+                "Schledule created"
+            ],
+            [
+                "2024.04.07 12:53",
+                "Fetched current day"
+            ],
+            [
+                "2024.04.07 12:53",
+                "Continuing with day: 3"
+            ],
+            [
+                "2024.04.07 12:53",
+                "Missing media files: ,,,,1.mp4,2.mp4,3.mp4 - continuing anyway"
+            ],
+            [
+                "2024.04.07 12:53",
+                "Started after 09:20 - skipping Inside.Out.2015.1080p.BluRay.CZ.SK.DD.5.1.x264-MTK.mkv"
+            ],
+            [
+                "2024.04.07 12:53",
+                "Starting playback: inside_out_en_all_subtit.mkv with delay"
+            ],
+            [
+                "2024.04.07 12:53",
+                "Starting"
+            ],
+            [
+                "2024.04.07 12:53",
+                "Fetched program"
+            ],
+            [
+                "2024.04.07 12:53",
+                "Schledule created"
+            ],
+            [
+                "2024.04.07 12:53",
+                "Fetched current day"
+            ],
+            [
+                "2024.04.07 12:53",
+                "Continuing with day: 3"
+            ],
+            [
+                "2024.04.07 12:53",
+                "Missing media files: ,,,,1.mp4,2.mp4,3.mp4 - continuing anyway"
+            ],
+            [
+                "2024.04.07 12:53",
+                "Started after 09:20 - skipping Inside.Out.2015.1080p.BluRay.CZ.SK.DD.5.1.x264-MTK.mkv"
+            ],
+            [
+                "2024.04.07 12:53",
+                "Starting playback: inside_out_en_all_subtit.mkv with delay"
+            ],
+            [
+                "2024.04.07 12:54",
+                "Starting"
+            ],
+            [
+                "2024.04.07 12:54",
+                "Fetched program"
+            ],
+            [
+                "2024.04.07 12:54",
+                "Schledule created"
+            ],
+            [
+                "2024.04.07 12:54",
+                "Fetched current day"
+            ],
+            [
+                "2024.04.07 12:54",
+                "Continuing with day: 3"
+            ],
+            [
+                "2024.04.07 12:54",
+                "Missing media files: ,,,,1.mp4,2.mp4,3.mp4 - continuing anyway"
+            ],
+            [
+                "2024.04.07 12:54",
+                "Started after 09:20 - skipping Inside.Out.2015.1080p.BluRay.CZ.SK.DD.5.1.x264-MTK.mkv"
+            ],
+            [
+                "2024.04.07 12:54",
+                "Starting playback: inside_out_en_all_subtit.mkv with delay"
+            ],
+            [
+                "2024.04.07 12:54",
+                "Starting"
+            ],
+            [
+                "2024.04.07 12:54",
+                "Fetched program"
+            ],
+            [
+                "2024.04.07 12:54",
+                "Schledule created"
+            ],
+            [
+                "2024.04.07 12:54",
+                "Fetched current day"
+            ],
+            [
+                "2024.04.07 12:54",
+                "Continuing with day: 3"
+            ],
+            [
+                "2024.04.07 12:54",
+                "Missing media files: ,,,,1.mp4,2.mp4,3.mp4 - continuing anyway"
+            ],
+            [
+                "2024.04.07 12:54",
+                "Started after 09:20 - skipping Inside.Out.2015.1080p.BluRay.CZ.SK.DD.5.1.x264-MTK.mkv"
+            ],
+            [
+                "2024.04.07 12:54",
+                "Starting playback: inside_out_en_all_subtit.mkv with delay"
+            ],
+            [
+                "2024.04.07 12:54",
+                "Critical error - PyGetWindowException('Error code from Windows: 0 - The operation completed successfully.') - restarting in 3s"
+            ],
+            [
+                "2024.04.07 12:54",
+                "Starting"
+            ],
+            [
+                "2024.04.07 12:54",
+                "Fetched program"
+            ],
+            [
+                "2024.04.07 12:54",
+                "Schledule created"
+            ],
+            [
+                "2024.04.07 12:54",
+                "Fetched current day"
+            ],
+            [
+                "2024.04.07 12:54",
+                "Continuing with day: 3"
+            ],
+            [
+                "2024.04.07 12:54",
+                "Missing media files: ,,,,1.mp4,2.mp4,3.mp4 - continuing anyway"
+            ],
+            [
+                "2024.04.07 12:54",
+                "Started after 09:20 - skipping Inside.Out.2015.1080p.BluRay.CZ.SK.DD.5.1.x264-MTK.mkv"
+            ],
+            [
+                "2024.04.07 12:54",
+                "Starting playback: inside_out_en_all_subtit.mkv with delay"
+            ],
+            [
+                "2024.04.07 12:54",
+                "Starting"
+            ],
+            [
+                "2024.04.07 12:54",
+                "Fetched program"
+            ],
+            [
+                "2024.04.07 12:54",
+                "Schledule created"
+            ],
+            [
+                "2024.04.07 12:54",
+                "Fetched current day"
+            ],
+            [
+                "2024.04.07 12:54",
+                "Continuing with day: 3"
+            ],
+            [
+                "2024.04.07 12:54",
+                "Missing media files: ,,,,1.mp4,2.mp4,3.mp4 - continuing anyway"
+            ],
+            [
+                "2024.04.07 12:54",
+                "Started after 09:20 - skipping Inside.Out.2015.1080p.BluRay.CZ.SK.DD.5.1.x264-MTK.mkv"
+            ],
+            [
+                "2024.04.07 12:54",
+                "Starting playback: inside_out_en_all_subtit.mkv with delay"
+            ],
+            [
+                "2024.04.07 12:56",
+                "Starting"
+            ],
+            [
+                "2024.04.07 12:56",
+                "Fetched program"
+            ],
+            [
+                "2024.04.07 12:56",
+                "Schledule created"
+            ],
+            [
+                "2024.04.07 12:56",
+                "Fetched current day"
+            ],
+            [
+                "2024.04.07 12:56",
+                "Continuing with day: 3"
+            ],
+            [
+                "2024.04.07 12:56",
+                "Missing media files: ,,,,1.mp4,2.mp4,3.mp4 - continuing anyway"
+            ],
+            [
+                "2024.04.07 12:56",
+                "Started after 09:20 - skipping Inside.Out.2015.1080p.BluRay.CZ.SK.DD.5.1.x264-MTK.mkv"
+            ],
+            [
+                "2024.04.07 12:56",
+                "Starting playback: inside_out_en_all_subtit.mkv with delay"
+            ],
+            [
+                "2024.04.07 12:58",
+                "Starting"
+            ],
+            [
+                "2024.04.07 12:58",
+                "Fetched program"
+            ],
+            [
+                "2024.04.07 12:58",
+                "Schledule created"
+            ],
+            [
+                "2024.04.07 12:58",
+                "Fetched current day"
+            ],
+            [
+                "2024.04.07 12:58",
+                "Continuing with day: 3"
+            ],
+            [
+                "2024.04.07 12:58",
+                "Missing media files: ,,,,1.mp4,2.mp4,3.mp4 - continuing anyway"
+            ],
+            [
+                "2024.04.07 12:58",
+                "Started after 09:20 - skipping Inside.Out.2015.1080p.BluRay.CZ.SK.DD.5.1.x264-MTK.mkv"
+            ],
+            [
+                "2024.04.07 12:58",
+                "Starting playback: inside_out_en_all_subtit.mkv with delay"
+            ],
+            [
+                "2024.04.07 12:59",
+                "Starting"
+            ],
+            [
+                "2024.04.07 12:59",
+                "Fetched program"
+            ],
+            [
+                "2024.04.07 12:59",
+                "Schledule created"
+            ],
+            [
+                "2024.04.07 12:59",
+                "Fetched current day"
+            ],
+            [
+                "2024.04.07 12:59",
+                "Continuing with day: 3"
+            ],
+            [
+                "2024.04.07 12:59",
+                "Missing media files: ,,,,1.mp4,2.mp4,3.mp4 - continuing anyway"
+            ],
+            [
+                "2024.04.07 12:59",
+                "Started after 09:20 - skipping Inside.Out.2015.1080p.BluRay.CZ.SK.DD.5.1.x264-MTK.mkv"
+            ],
+            [
+                "2024.04.07 12:59",
+                "Starting playback: inside_out_en_all_subtit.mkv with delay"
+            ],
+            [
+                "2024.04.07 13:09",
+                "Starting"
+            ],
+            [
+                "2024.04.07 13:09",
+                "Fetched program"
+            ],
+            [
+                "2024.04.07 13:09",
+                "Schledule created"
+            ],
+            [
+                "2024.04.07 13:09",
+                "Fetched current day"
+            ],
+            [
+                "2024.04.07 13:09",
+                "Continuing with day: 3"
+            ],
+            [
+                "2024.04.07 13:09",
+                "Missing media files: ,,,,1.mp4,2.mp4,3.mp4 - continuing anyway"
+            ],
+            [
+                "2024.04.07 13:09",
+                "Started after 09:20 - skipping Inside.Out.2015.1080p.BluRay.CZ.SK.DD.5.1.x264-MTK.mkv"
+            ],
+            [
+                "2024.04.07 13:09",
+                "Starting playback: inside_out_en_all_subtit.mkv with delay"
+            ],
+            [
+                "2024.04.07 13:11",
+                "Playing inside_out_en_all_subtit.mkv"
+            ],
+            [
+                "2024.04.07 13:13",
+                "Starting"
+            ],
+            [
+                "2024.04.07 13:13",
+                "Fetched program"
+            ],
+            [
+                "2024.04.07 13:13",
+                "Schledule created"
+            ],
+            [
+                "2024.04.07 13:13",
+                "Fetched current day"
+            ],
+            [
+                "2024.04.07 13:13",
+                "Continuing with day: 3"
+            ],
+            [
+                "2024.04.07 13:13",
+                "Missing media files: ,,,,1.mp4,2.mp4,3.mp4 - continuing anyway"
+            ],
+            [
+                "2024.04.07 13:13",
+                "Started after 09:20 - skipping Inside.Out.2015.1080p.BluRay.CZ.SK.DD.5.1.x264-MTK.mkv"
+            ],
+            [
+                "2024.04.07 13:13",
+                "Starting playback: inside_out_en_all_subtit.mkv with delay"
+            ],
+            [
+                "2024.04.07 13:14",
+                "Starting"
+            ],
+            [
+                "2024.04.07 13:14",
+                "Fetched program"
+            ],
+            [
+                "2024.04.07 13:14",
+                "Schledule created"
+            ],
+            [
+                "2024.04.07 13:14",
+                "Fetched current day"
+            ],
+            [
+                "2024.04.07 13:14",
+                "Continuing with day: 3"
+            ],
+            [
+                "2024.04.07 13:14",
+                "Missing media files: ,,,,1.mp4,2.mp4,3.mp4 - continuing anyway"
+            ],
+            [
+                "2024.04.07 13:14",
+                "Started after 09:20 - skipping Inside.Out.2015.1080p.BluRay.CZ.SK.DD.5.1.x264-MTK.mkv"
+            ],
+            [
+                "2024.04.07 13:14",
+                "Starting playback: inside_out_en_all_subtit.mkv with delay"
+            ],
+            [
+                "2024.04.07 13:19",
+                "Starting"
+            ],
+            [
+                "2024.04.07 13:19",
+                "Fetched program"
+            ],
+            [
+                "2024.04.07 13:19",
+                "Schledule created"
+            ],
+            [
+                "2024.04.07 13:19",
+                "Fetched current day"
+            ],
+            [
+                "2024.04.07 13:19",
+                "Continuing with day: 3"
+            ],
+            [
+                "2024.04.07 13:19",
+                "Missing media files: ,,,,1.mp4,2.mp4,3.mp4 - continuing anyway"
+            ],
+            [
+                "2024.04.07 13:19",
+                "Started after 09:20 - skipping Inside.Out.2015.1080p.BluRay.CZ.SK.DD.5.1.x264-MTK.mkv"
+            ],
+            [
+                "2024.04.07 13:19",
+                "Starting playback: inside_out_en_all_subtit.mkv with delay"
+            ],
+            [
+                "2024.04.07 13:19",
+                "Starting"
+            ],
+            [
+                "2024.04.07 13:19",
+                "Fetched program"
+            ],
+            [
+                "2024.04.07 13:19",
+                "Schledule created"
+            ],
+            [
+                "2024.04.07 13:19",
+                "Fetched current day"
+            ],
+            [
+                "2024.04.07 13:19",
+                "Continuing with day: 3"
+            ],
+            [
+                "2024.04.07 13:19",
+                "Missing media files: ,,,,1.mp4,2.mp4,3.mp4 - continuing anyway"
+            ],
+            [
+                "2024.04.07 13:19",
+                "Started after 09:20 - skipping Inside.Out.2015.1080p.BluRay.CZ.SK.DD.5.1.x264-MTK.mkv"
+            ],
+            [
+                "2024.04.07 13:19",
+                "Starting playback: inside_out_en_all_subtit.mkv with delay"
+            ],
+            [
+                "2024.04.07 13:19",
+                "Starting"
+            ],
+            [
+                "2024.04.07 13:19",
+                "Fetched program"
+            ],
+            [
+                "2024.04.07 13:19",
+                "Schledule created"
+            ],
+            [
+                "2024.04.07 13:19",
+                "Fetched current day"
+            ],
+            [
+                "2024.04.07 13:19",
+                "Continuing with day: 3"
+            ],
+            [
+                "2024.04.07 13:19",
+                "Missing media files: ,,,,1.mp4,2.mp4,3.mp4 - continuing anyway"
+            ],
+            [
+                "2024.04.07 13:19",
+                "Started after 09:20 - skipping Inside.Out.2015.1080p.BluRay.CZ.SK.DD.5.1.x264-MTK.mkv"
+            ],
+            [
+                "2024.04.07 13:19",
+                "Starting playback: inside_out_en_all_subtit.mkv with delay"
+            ],
+            [
+                "2024.04.07 13:20",
+                "Starting"
+            ],
+            [
+                "2024.04.07 13:20",
+                "Fetched program"
+            ],
+            [
+                "2024.04.07 13:20",
+                "Schledule created"
+            ],
+            [
+                "2024.04.07 13:20",
+                "Fetched current day"
+            ],
+            [
+                "2024.04.07 13:20",
+                "Continuing with day: 3"
+            ],
+            [
+                "2024.04.07 13:20",
+                "Missing media files: ,,,,1.mp4,2.mp4,3.mp4 - continuing anyway"
+            ],
+            [
+                "2024.04.07 13:20",
+                "Started after 09:20 - skipping Inside.Out.2015.1080p.BluRay.CZ.SK.DD.5.1.x264-MTK.mkv"
+            ],
+            [
+                "2024.04.07 13:20",
+                "Starting playback: inside_out_en_all_subtit.mkv with delay"
+            ],
+            [
+                "2024.04.07 13:23",
+                "Starting"
+            ],
+            [
+                "2024.04.07 13:23",
+                "Fetched program"
+            ],
+            [
+                "2024.04.07 13:23",
+                "Schledule created"
+            ],
+            [
+                "2024.04.07 13:23",
+                "Fetched current day"
+            ],
+            [
+                "2024.04.07 13:23",
+                "Continuing with day: 3"
+            ],
+            [
+                "2024.04.07 13:23",
+                "Missing media files: ,,,,1.mp4,2.mp4,3.mp4 - continuing anyway"
+            ],
+            [
+                "2024.04.07 13:23",
+                "Started after 09:20 - skipping Inside.Out.2015.1080p.BluRay.CZ.SK.DD.5.1.x264-MTK.mkv"
+            ],
+            [
+                "2024.04.07 13:23",
+                "Starting playback: inside_out_en_all_subtit.mkv with delay"
+            ],
+            [
+                "2024.04.07 13:23",
+                "Starting"
+            ],
+            [
+                "2024.04.07 13:23",
+                "Fetched program"
+            ],
+            [
+                "2024.04.07 13:23",
+                "Schledule created"
+            ],
+            [
+                "2024.04.07 13:23",
+                "Fetched current day"
+            ],
+            [
+                "2024.04.07 13:23",
+                "Continuing with day: 3"
+            ],
+            [
+                "2024.04.07 13:23",
+                "Missing media files: ,,,,1.mp4,2.mp4,3.mp4 - continuing anyway"
+            ],
+            [
+                "2024.04.07 13:23",
+                "Started after 09:20 - skipping Inside.Out.2015.1080p.BluRay.CZ.SK.DD.5.1.x264-MTK.mkv"
+            ],
+            [
+                "2024.04.07 13:23",
+                "Starting playback: inside_out_en_all_subtit.mkv with delay"
+            ],
+            [
+                "2024.04.07 13:26",
+                "Starting"
+            ],
+            [
+                "2024.04.07 13:26",
+                "Fetched program"
+            ],
+            [
+                "2024.04.07 13:26",
+                "Schledule created"
+            ],
+            [
+                "2024.04.07 13:26",
+                "Fetched current day"
+            ],
+            [
+                "2024.04.07 13:26",
+                "Continuing with day: 3"
+            ],
+            [
+                "2024.04.07 13:26",
+                "Missing media files: ,,,,1.mp4,2.mp4,3.mp4 - continuing anyway"
+            ],
+            [
+                "2024.04.07 13:26",
+                "Started after 09:20 - skipping Inside.Out.2015.1080p.BluRay.CZ.SK.DD.5.1.x264-MTK.mkv"
+            ],
+            [
+                "2024.04.07 13:26",
+                "Starting playback: inside_out_en_all_subtit.mkv with delay"
+            ],
+            [
+                "2024.04.07 13:28",
+                "Starting"
+            ],
+            [
+                "2024.04.07 13:28",
+                "Fetched program"
+            ],
+            [
+                "2024.04.07 13:28",
+                "Schledule created"
+            ],
+            [
+                "2024.04.07 13:28",
+                "Fetched current day"
+            ],
+            [
+                "2024.04.07 13:28",
+                "Continuing with day: 3"
+            ],
+            [
+                "2024.04.07 13:28",
+                "Missing media files: ,,,,1.mp4,2.mp4,3.mp4 - continuing anyway"
+            ],
+            [
+                "2024.04.07 13:28",
+                "Started after 09:20 - skipping Inside.Out.2015.1080p.BluRay.CZ.SK.DD.5.1.x264-MTK.mkv"
+            ],
+            [
+                "2024.04.07 13:28",
+                "Starting playback: inside_out_en_all_subtit.mkv with delay"
+            ],
+            [
+                "2024.04.07 13:29",
+                "Starting"
+            ],
+            [
+                "2024.04.07 13:29",
+                "Fetched program"
+            ],
+            [
+                "2024.04.07 13:29",
+                "Schledule created"
+            ],
+            [
+                "2024.04.07 13:29",
+                "Fetched current day"
+            ],
+            [
+                "2024.04.07 13:29",
+                "Continuing with day: 3"
+            ],
+            [
+                "2024.04.07 13:29",
+                "Missing media files: ,,,,1.mp4,2.mp4,3.mp4 - continuing anyway"
+            ],
+            [
+                "2024.04.07 13:29",
+                "Started after 09:20 - skipping Inside.Out.2015.1080p.BluRay.CZ.SK.DD.5.1.x264-MTK.mkv"
+            ],
+            [
+                "2024.04.07 13:29",
+                "Starting playback: inside_out_en_all_subtit.mkv with delay"
             ]
         ],
-        "last_update": "2024.03.29 09:42",
-        "status": "Critical error - FileNotFoundError(2, 'The system cannot find the path specified') - restarting",
-        "last_update_age": "2"
+        "last_update": "2024.04.07 13:29",
+        "status": "Starting playback: inside_out_en_all_subtit.mkv with delay",
+        "last_update_age": "1"
     },
     "VII": {
         "log": [
