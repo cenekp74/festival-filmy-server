@@ -14,4 +14,18 @@ function padZero(value) {
     return value < 10 ? `0${value}` : value;
 }
 
+function getRandomInt(min, max) {
+    return Math.random() * (max - min) + min;
+}
+
 updateTime();
+
+document.addEventListener("keypress", () => {
+    const audio = new Audio("/static/background.mp3")
+    audio.preload = "metadata"
+    audio.loop = true
+    audio.addEventListener("loadedmetadata", () => {
+        audio.currentTime = getRandomInt(1, audio.duration-10) // posude audio do nahodnyho casu
+        audio.play();
+    })
+})
