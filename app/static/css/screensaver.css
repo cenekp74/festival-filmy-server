@@ -16,6 +16,13 @@ body {
     font-family: monospace;
 }
 
+canvas {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    position: absolute;
+}
 
 .details {
     position: absolute;
