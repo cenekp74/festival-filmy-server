@@ -1,7 +1,7 @@
 :root {
-    --screensaver-bg: #272727;
+    --screensaver-bg: #0e0505;
     --screensaver-text-color: white;
-    --time-box-color: #ffd868;
+    --time-box-color: #ec940c;
 }
 
 body {
@@ -28,19 +28,25 @@ body {
     border-right: 1px solid var(--time-box-color);
     border-top-right-radius: 10px;
     padding: 1rem;
-    font-size: 1.7rem;
+    font-size: 1.9rem;
 }
 
 .details .room {
     padding-left: .5rem;
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 
 #time {
     font-size: 4em;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 30px var(--time-box-color);
+    box-shadow: 0 0 2px var(--time-box-color);
     background-color: var(--time-box-color);
     color: var(--screensaver-bg);
+}
+
+#logo-text {
+    position: absolute;
+    width: 1200px;
+    top: 8rem;
 }
