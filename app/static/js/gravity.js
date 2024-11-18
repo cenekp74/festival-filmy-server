@@ -18,7 +18,7 @@ const POINT_COUNT = 120;
 const MAX_SPEED = 40;
 const MAX_FORCE = 3.5;
 const BOUNCE_SLOWDOWN_CONSTATNT = 0.7;
-const SPEED = 0.1;
+const SPEED = 0.07;
 
 class Point {
     constructor(x, y, size, mass, speedX, speedY) {
@@ -156,16 +156,16 @@ function start() {
     }
     
     let lastTime = 0;
-    const fpsInterval = 1000 / 30; // 30 FPS
+    const fpsInterval = 1000 / 60; // fps
     function animate(timestamp) {
         if (timestamp - lastTime >= fpsInterval) {
             lastTime = timestamp;
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            points.forEach(point => {
+                point.draw();
+                point.update(points);
+            });
         }
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
-        points.forEach(point => {
-            point.draw();
-            point.update(points);
-        });
         requestAnimationFrame(animate);
     }
     
