@@ -155,8 +155,12 @@ function start() {
         points.push(new Point(x, y, size, mass, speedX, speedY));
     }
     
-    
-    function animate() {
+    let lastTime = 0;
+    const fpsInterval = 1000 / 30; // 30 FPS
+    function animate(timestamp) {
+        if (timestamp - lastTime >= fpsInterval) {
+            lastTime = timestamp;
+        }
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         points.forEach(point => {
             point.draw();
