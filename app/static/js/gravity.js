@@ -14,12 +14,12 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 const GRAVITY_CONSTANT = 5;
-const POINT_COUNT = 100;
+const POINT_COUNT = 90;
 const MAX_SPEED = 40;
 const MAX_FORCE = 3.5;
 const MAX_DISTANCE = 1000
 const BOUNCE_SLOWDOWN_CONSTATNT = 0.7;
-const SPEED = 0.10;
+const SPEED = 0.14;
 
 class Point {
     constructor(x, y, size, mass, speedX, speedY) {
@@ -144,7 +144,7 @@ function start() {
     let points = [];
 
     for (let i = 0; i < POINT_COUNT*7/10; i++) {
-        let size = Math.random() * 3.2 + 2.2;
+        let size = Math.random() * 3.3 + 2.2;
         let mass = size*1.5;
         let x = Math.random() * canvas.width;
         let y = Math.random() * canvas.height;
@@ -164,7 +164,7 @@ function start() {
     }
     
     let lastTime = 0;
-    const fpsInterval = 1000 / 45; // fps
+    const fpsInterval = 1000 / 30; // fps
     function animate(timestamp) {
         if (timestamp - lastTime >= fpsInterval) {
             lastTime = timestamp;
