@@ -14,11 +14,12 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 const GRAVITY_CONSTANT = 5;
-const POINT_COUNT = 120;
+const POINT_COUNT = 100;
 const MAX_SPEED = 40;
 const MAX_FORCE = 3.5;
+const MAX_DISTANCE = 1000
 const BOUNCE_SLOWDOWN_CONSTATNT = 0.7;
-const SPEED = 0.07;
+const SPEED = 0.10;
 
 class Point {
     constructor(x, y, size, mass, speedX, speedY) {
@@ -76,6 +77,13 @@ class Point {
         points.forEach(point => {
             if (this == point) { return }
 
+            let dx = point.x - this.x
+            let dy = point.y - this.y
+            let distance = Math.sqrt(dx*dx + dy*dy)
+            if (distance > MAX_DISTANCE) { // optimalizace - pokud jsou body moc daleko od sebe nepocitam silu mezi nima
+                return
+            }
+
             let force = this.attraction(point)
 
             let fx = force[0]
@@ -101,7 +109,7 @@ class Point {
             if (Math.abs(this.speedX) > MAX_SPEED) {
                 points.splice(points.indexOf(this), 1)
                 // add big point
-                let size = Math.random() * 10 + 5;
+                let size = Math.random() * 10 + 5.1;
                 let mass = size*3;
                 let x = Math.random() * canvas.width;
                 let y = Math.random() * canvas.height;
@@ -120,7 +128,7 @@ class Point {
             if (Math.abs(this.speedY) > MAX_SPEED) {
                 points.splice(points.indexOf(this), 1)
                 // add small point
-                let size = Math.random() * 5 + 2;
+                let size = Math.random() * 5 + 2.2;
                 let mass = size*1.4;
                 let x = Math.random() * canvas.width;
                 let y = Math.random() * canvas.height;
@@ -135,8 +143,8 @@ class Point {
 function start() {
     let points = [];
 
-    for (let i = 0; i < POINT_COUNT*9/10; i++) {
-        let size = Math.random() * 3 + 2;
+    for (let i = 0; i < POINT_COUNT*7/10; i++) {
+        let size = Math.random() * 3.2 + 2.2;
         let mass = size*1.5;
         let x = Math.random() * canvas.width;
         let y = Math.random() * canvas.height;
@@ -145,7 +153,7 @@ function start() {
         points.push(new Point(x, y, size, mass, speedX, speedY));
     }
     
-    for (let i = 0; i < POINT_COUNT*1/10; i++) {
+    for (let i = 0; i < POINT_COUNT*3/10; i++) {
         let size = Math.random() * 10 + 4;
         let mass = size*3.4;
         let x = Math.random() * canvas.width;
@@ -156,7 +164,7 @@ function start() {
     }
     
     let lastTime = 0;
-    const fpsInterval = 1000 / 60; // fps
+    const fpsInterval = 1000 / 45; // fps
     function animate(timestamp) {
         if (timestamp - lastTime >= fpsInterval) {
             lastTime = timestamp;
