@@ -24,6 +24,7 @@ document.addEventListener("keypress", () => {
     const audio = new Audio("/static/background.mp3")
     audio.preload = "metadata"
     audio.loop = true
+    audio.volume = .5
     audio.addEventListener("loadedmetadata", () => {
         audio.currentTime = getRandomInt(1, audio.duration-10) // posude audio do nahodnyho casu
         audio.play();
