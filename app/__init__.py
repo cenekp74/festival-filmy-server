@@ -14,6 +14,12 @@ app.config['CONFIG_FILE_PATH'] = 'app/config.json'
 app.config['CLIENTS_FILE_PATH'] = 'app/clients.json'
 app.config['LOG_ARCHIVE_FOLDER'] = 'app/log_archive/'
 
+app.config['SPOT'] = {
+    "1":"spot1.mp4",
+    "2":"spot2.mp4",
+    "3":"spot3.mp4"
+}
+
 from .utils import load_config, load_clients
 load_config()
 load_clients()

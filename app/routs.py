@@ -44,6 +44,22 @@ def fetch():
         program[room] = {}
         for day in ['1', '2', '3']:
             program[room][day] = requests.get(app.config['DB_SERVER'] + f'/api/query/film?room={room}&day={day}').json()
+    for room, program_day in program.items():
+        for day, items in program_day.items():
+            program[room][day].insert(0, {
+                        "day": day,
+                        "filename": app.config["SPOT"][day],
+                        "id": 0,
+                        "item_type": "film",
+                        "language": "cz",
+                        "link": "",
+                        "name": "",
+                        "room": room,
+                        "short_description": "",
+                        "time_from": "08:30",
+                        "time_to": "08:33",
+                        "uid": "f_0"
+                    })
     app.config['CONFIG']['PROGRAM'] = program
     write_config()
     flash('Data ze serveru úspěšně získána')
@@ -99,6 +115,7 @@ def screensaver(room):
     schledule = []
     if app.config['CONFIG']['current_day'] != 0:
         for film in app.config['CONFIG']['PROGRAM'][room][str(app.config['CONFIG']['current_day'])]:
+            if not film["name"]: continue # aby se neukazovaly veci co maji prazdny name (spoty)
             schledule.append((film["time_from"], film["time_to"], film["name"]))
         schledule = sorted(schledule, key=lambda x: x[0])
     return render_template('screensaver.html', room=room, schledule=schledule)
