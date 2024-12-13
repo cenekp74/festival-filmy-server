@@ -44,7 +44,7 @@ canvas {
 }
 
 #time {
-    font-size: 4em;
+    font-size: 5.4em;
     padding: 20px;
     border-radius: 25px;
     box-shadow: 0 0 2px var(--time-box-color);
