@@ -10,6 +10,7 @@
     <canvas id="simulationCanvas"></canvas>
     <img id="logo-text" src="{{ url_for('static', filename='img/logo_text.png') }}">
     <div id="time"></div>
+    {% if room != "none" %}
     <div class="details">
         <div class="room">Místnost: {{ room }}</div>
         <div class="schledule">
@@ -18,6 +19,7 @@
             {% endfor %}
         </div>
     </div>
+    {% endif %}
     <script src="{{ url_for('static', filename='js/screensaver.js') }}"></script>
     <script src="{{ url_for('static', filename='js/gravity.js') }}"></script>
 </body>
