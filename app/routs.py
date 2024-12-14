@@ -22,7 +22,9 @@ def dashboard():
     now = datetime.now(pytz.timezone('Europe/Prague'))
     clients = app.clients.copy()
     for _, client in clients.items():
-        difference = now - datetime.strptime(client["last_update"], "%Y.%m.%d %H:%M").astimezone(pytz.timezone('Europe/Prague'))
+        client_last_update = datetime.strptime(client["last_update"], "%Y.%m.%d %H:%M")
+        client_last_update = client_last_update.replace(tzinfo=pytz.timezone('Europe/Prague'))
+        difference = now - client_last_update
         client["last_update_age"] = "4"
         if difference < timedelta(minutes=60):
             client["last_update_age"] = "3"
