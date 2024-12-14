@@ -7,6 +7,7 @@ import requests
 from app.utils import write_config, load_config, write_clients, load_clients, create_clients_backup
 from datetime import datetime
 from datetime import timedelta
+import pytz
 
 @app.route('/')
 def index():
@@ -18,7 +19,7 @@ def index():
 @login_required
 def dashboard():
     # tohle je kvuli barvickam
-    now = datetime.now()
+    now = datetime.now('Europe/Prague')
     clients = app.clients.copy()
     for _, client in clients.items():
         difference = now - datetime.strptime(client["last_update"], "%Y.%m.%d %H:%M")
@@ -86,7 +87,7 @@ def cilent_msg(client):
         app.clients[client] = {}
         app.clients[client]["log"] = []
     msg = request.get_data(as_text=True)
-    now = datetime.now().strftime("%Y.%m.%d %H:%M")
+    now = datetime.now(pytz.timezone('Europe/Prague')).strftime("%Y.%m.%d %H:%M")
     app.clients[client]["log"].append((now, msg))
     app.clients[client]["last_update"] = now
     app.clients[client]["status"] = msg
