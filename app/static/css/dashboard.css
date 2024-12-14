@@ -116,7 +116,7 @@
     border-bottom-right-radius: var(--border-radius);
     border-bottom: 1px solid var(--border-color);
     border-right: 1px solid var(--border-color);
-    width: 2.5rem;
+    max-width: 3.5rem;
     text-align: center;
 }
 
@@ -130,6 +130,7 @@
     font-size: 90%;
     line-height: 1.1rem;
     overflow-y: scroll;
+    word-break: break-word;
 }
 
 .timer {
