@@ -21,6 +21,9 @@ function getRandomInt(min, max) {
 updateTime();
 
 document.addEventListener("keypress", () => {
+    if (window.backgroundAudioStarted) {
+        return
+    }
     const audio = new Audio("/static/background.mp3")
     audio.preload = "metadata"
     audio.loop = true
@@ -28,5 +31,6 @@ document.addEventListener("keypress", () => {
     audio.addEventListener("loadedmetadata", () => {
         audio.currentTime = getRandomInt(1, audio.duration-10) // posude audio do nahodnyho casu
         audio.play();
+        window.backgroundAudioStarted = true;
     })
 })
