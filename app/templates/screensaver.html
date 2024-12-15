@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Screensaver</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/screensaver.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/screensaver.css') }}?v={{ '{:0=6}'.format(range(0, 99999) | random) }}">
 </head>
 <body>
     <canvas id="simulationCanvas"></canvas>
@@ -20,7 +20,7 @@
         </div>
     </div>
     {% endif %}
-    <script src="{{ url_for('static', filename='js/screensaver.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/gravity.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/screensaver.js') }}?v={{ '{:0=6}'.format(range(0, 99999) | random) }}"></script> <!-- aby se to necachovalo do pameti browseru -->
+    <script src="{{ url_for('static', filename='js/gravity.js') }}?v={{ '{:0=6}'.format(range(0, 99999) | random) }}"></script>
 </body>
 </html>
