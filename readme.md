@@ -1,3 +1,7 @@
+Server for automatic media playback system on JSNO film festival. The client source code is here: https://github.com/cenekp74/festival-filmy-client
+The rest of the documentation and comments are mostly in czech. 
+
+---
 Server pro system na automaticke spousteni filmu na filmovem festivalu na GEKOMu pro rok 2024
 
 # Poznamky
